@@ -1,6 +1,8 @@
 #GoogleMaps - ES5
 
-An es5 approach to google maps, that injects the google map library with a callback to init the map or maps.
+An es5 approach to google maps, cause sometimes you still need to keep stufff es5.
+
+Injects the google map library with a callback to init the map or maps.
 Uses data-attributes to build the map and provide content for the custom infowindow. Allows for multiple map instances if that's your thing.
 
 Refrains from Geocoding address to keep api costs down.
