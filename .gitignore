@@ -1,0 +1,9 @@
+# Misc
+/tmp
+.DS_Store
+node_modules
+.log
+vendor
+
+# ignore build assets
+dist/

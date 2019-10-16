@@ -1,0 +1,9 @@
+// Required styles to render map
+.locations {
+    &__map {
+    height: 100%;
+    min-height: 30em;
+    margin: 0;
+    padding: 0;
+  }
+}
