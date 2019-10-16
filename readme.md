@@ -1,4 +1,4 @@
-#GoogleMaps - ES5
+# GoogleMaps - ES5
 
 An es5 approach to google maps, cause sometimes you still need to keep stufff es5.
 
@@ -8,14 +8,14 @@ Uses data-attributes to build the map and provide content for the custom infowin
 Refrains from Geocoding address to keep api costs down.
 
 
-##Usage
+## Usage
 
 Load the js and styles json.
 
 The, provide markup with the following structure.
 Note that data attributes, which are used to establish the map's lat lng, and build the custom infowindow.
 
-###HTML
+### HTML
 ```
 <section class="locations">
   <div class="locations__map js-map"
@@ -28,11 +28,11 @@ Note that data attributes, which are used to establish the map's lat lng, and bu
 </section>
 ```
 
-##Styles
+## Styles
 
 Don't forget the required css to render your map(s).
 
-###CSS
+### CSS
 ```
 .locations__map {
   height: 100%;
@@ -42,7 +42,7 @@ Don't forget the required css to render your map(s).
 }
 ```
 
-##About
+## About
 
 `google-maps.js` just includes as series of functions to handle rendering the map, build the marker and infowindow (with custom template), center on resize, etc.
 
